@@ -6,5 +6,14 @@ public class Producto {
 	
 	public Producto(String codigo,double precio) {
 		this.codigo=codigo;
+
+	}
+
+	public String getCodigo(){
+	 return this.codigo;
+	}
+
+	public String getPrecioo(){
+	 return this.precio;
 	}
 }
