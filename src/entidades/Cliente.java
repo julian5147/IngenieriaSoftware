@@ -3,6 +3,7 @@ package entidades;
 public class Cliente {
 	private String cedula;
 	private String nombre;
+	private String apellido;
 	private String direccion;
 	private String telefono;
 
